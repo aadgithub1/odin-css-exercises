@@ -24,6 +24,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
+  margin: 12px 4px 12px;
 }
 
 input {
@@ -33,36 +35,21 @@ input {
   width: 400px;
 }
 
+.content{
+  text-align: center;
+}
+
 .header,
 .footer{
-  padding: 30px;
+  padding: 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer{
+  background-color: #eeeeee;
+}
 
 ul{
   margin: 0;
@@ -77,4 +64,5 @@ li{
 
 a{
   text-decoration: none;
+  color: rgb(111, 111, 111);
 }
